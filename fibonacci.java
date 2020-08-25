@@ -3,7 +3,7 @@
  */
 public class fibonacci {
 
-    public static int nacci(int n){
+    public static long nacci(long n){
         if(n == 0){
             return 0;
         }else if(n == 1){
@@ -13,7 +13,7 @@ public class fibonacci {
         }
     }
     public static void main(String[] args) {
-        for (int i = 0; i < 50; i++) {
+        for (long i = 0; i < 50; i++) {
             System.out.println(nacci(i));
         }
     }
